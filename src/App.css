@@ -113,6 +113,11 @@ img {
   margin-inline: auto; /* margin right and left: auto */
 }
 
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
 .text-cs {
   text-transform: uppercase;
   letter-spacing: 0.05em;
