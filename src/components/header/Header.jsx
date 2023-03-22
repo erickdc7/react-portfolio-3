@@ -3,9 +3,15 @@ import { FaBehance, FaDribbble, FaTwitter } from 'react-icons/fa'
 import { links } from '../../Data'
 import { BsSun, BsMoon } from 'react-icons/bs'
 import './header.css'
+import { Link } from 'react-scroll'
+import { animateScroll } from 'react-scroll'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
+
+    const scrollTop = () => {
+        animateScroll.scrollToTop()
+    }
 
     useEffect(() => {
         document.body.classList.toggle('no-scroll', showMenu)
@@ -15,9 +21,9 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav">
-                <a href="" className="nav__logo text-cs">
+                <Link to='/' onClick={scrollTop} className="nav__logo text-cs">
                     Miller
-                </a>
+                </Link>
 
                 <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                     <div className="nav__data">
@@ -26,9 +32,18 @@ const Header = () => {
                                 links.map(({ name, path }, index) => {
                                     return (
                                         <li className="nav__item" key={index}>
-                                            <a href="" className="nav__link text-cs">
+                                            <Link
+                                                className='nav__link text-cs'
+                                                to={path}
+                                                spy={true}
+                                                hashSpy={true}
+                                                smooth={true}
+                                                offset={-150}
+                                                duration={500}
+                                                onClick={() => setShowMenu(!showMenu)}
+                                            >
                                                 {name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     )
                                 })
