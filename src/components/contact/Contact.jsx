@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap } from 'react-icons/fa'
+import shapeOne from '../../assets/shape-1.png'
 import './contact.css'
 
 const Contact = () => {
@@ -131,6 +132,10 @@ const Contact = () => {
                         </button>
                     </div>
                 </form>
+            </div>
+
+            <div className="section__deco deco__left">
+                <img src={shapeOne} alt="" className='shape' />
             </div>
         </section>
     )

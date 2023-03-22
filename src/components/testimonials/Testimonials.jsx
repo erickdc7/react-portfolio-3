@@ -1,4 +1,5 @@
 import React from 'react'
+import shapeOne from '../../assets/shape-1.png'
 import shapeTwo from '../../assets/shape-2.png'
 import testimonialIcon from '../../assets/testimonials-icon.svg'
 import { testimonials } from '../../Data'
@@ -67,6 +68,10 @@ const Testimonials = () => {
                     })
                 }
             </Swiper>
+
+            <div className="section__deco deco__right">
+                <img src={shapeOne} alt="" className='shape' />
+            </div>
         </section>
     )
 }
