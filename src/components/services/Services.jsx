@@ -53,7 +53,7 @@ const Services = () => {
                                 <h3 className="services__title">{title}</h3>
                                 <p className="services__description">{description}</p>
 
-                                <a href="" className="link">
+                                <a href="#pricing" className="link">
                                     See Pricing
                                     <FaArrowRight className='link__icon' />
                                 </a>
