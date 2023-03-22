@@ -8,10 +8,23 @@ import { animateScroll } from 'react-scroll'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
+    const [scrollNav, setScrollNav] = useState(false)
 
     const scrollTop = () => {
         animateScroll.scrollToTop()
     }
+
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
 
     useEffect(() => {
         document.body.classList.toggle('no-scroll', showMenu)
@@ -19,7 +32,7 @@ const Header = () => {
 
 
     return (
-        <header className="header">
+        <header className={`${scrollNav ? 'scroll-header' : ''} header`}>
             <nav className="nav">
                 <Link to='/' onClick={scrollTop} className="nav__logo text-cs">
                     Miller
