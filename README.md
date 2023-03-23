@@ -22,7 +22,7 @@ This web page contains 9 sections: **Home**, **Services**, **Skills**, **Portfol
 
 ### Services
 #### In this section, you will see the section title, a subtitle, and a list of services offered. Each service has a short description and a title. Also, there is a button that goes to the pricing section.
-![preview who section](src/assets/preview-2)
+![preview services section](src/assets/preview-2.png)
 
 ### Skills
 #### In this section you will see a list of skills that I have. Each ability has a short description and a percentage, depending on how well I know how to handle it.
