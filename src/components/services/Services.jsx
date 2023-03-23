@@ -25,6 +25,7 @@ const Services = () => {
             </p>
 
             <Swiper
+                spaceBetween={30}
                 pagination={{
                     clickable: true,
                 }}

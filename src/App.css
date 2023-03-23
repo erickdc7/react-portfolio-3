@@ -31,8 +31,8 @@
   --body-font: "Jost", sans-serif;
   --second-font: "Caveat", cursive;
 
-  --biggest-font-size: 90px;
-  --h1-font-size: 44px;
+  --biggest-font-size: clamp(2.25rem, 1.125rem + 5.1429vw, 5.625rem);
+  --h1-font-size: clamp(1.75rem, 1.4167rem + 1.5238vw, 2.75rem);
   --h2-font-size: 30px;
   --h3-font-size: 28px;
   --h4-font-size: 24px;
@@ -146,7 +146,7 @@ img {
 
 .container {
   max-width: 1300px;
-  padding-inline: 12px; /* padding right and left: 12px */
+  padding-inline: 12px !important; /* padding right and left: 12px */
   margin-inline: auto; /* margin right and left: auto */
 }
 

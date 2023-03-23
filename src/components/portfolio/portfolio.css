@@ -5,6 +5,8 @@
 .portfolio__list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
   column-gap: 40px;
   margin-bottom: 60px;
 }
