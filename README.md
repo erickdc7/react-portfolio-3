@@ -26,7 +26,7 @@ This web page contains 9 sections: **Home**, **Services**, **Skills**, **Portfol
 
 ### Skills
 #### In this section you will see a list of skills that I have. Each ability has a short description and a percentage, depending on how well I know how to handle it.
-![preview works section](src/assets/preview-3.png)
+
 
 ### Portfolio
 #### In this section you will see all the projects that have been carried out. Each project has a short description, a title, the area to which it belongs and a button that goes to the price section. There are four areas: Dranding, UI UX Design, Development and Photography.
