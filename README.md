@@ -25,7 +25,7 @@ This web page contains 9 sections: **Home**, **Services**, **Skills**, **Portfol
 ![preview services section](src/assets/preview-2.png)
 
 ### Skills
-#### In this section you will see a list of skills that I have. Each ability has a short description and a percentage, depending on how well I know how to handle it.
+#### In this section you will see a list of skills. Each ability has a short description and a percentage, depending on how well I know how to handle it.
 ![preview who section](src/assets/preview-3.png)
 
 ### Portfolio
@@ -33,11 +33,11 @@ This web page contains 9 sections: **Home**, **Services**, **Skills**, **Portfol
 ![preview contact section 1](src/assets/preview-4.png)
 
 ### Resume
-#### In this section you can see my information about my studies and my work experience.
+#### In this section you can see my information about the studies one has and work experience.
 ![preview contact section 1](src/assets/preview-5.png)
 
 ### Testimonials
-#### In this section you can see the testimonials of my satisfied customers.
+#### In this section you can see the testimonials of satisfied customers.
 ![preview contact section 1](src/assets/preview-6.png)
 
 ### Pricing
