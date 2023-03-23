@@ -138,6 +138,10 @@ const Pricing = () => {
             <div className="section__deco deco__left">
                 <img src={shapeOne} alt="" className='shape' />
             </div>
+
+            <div className="section__bg-wrapper">
+                <span className="bg__title">Pricing</span>
+            </div>
         </section>
     )
 }
